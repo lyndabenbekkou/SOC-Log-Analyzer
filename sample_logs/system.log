@@ -1,0 +1,8 @@
+Jan 10 06:00:00 server kernel: iptables: DROP IN=eth0 SRC=192.168.1.105 DST=10.0.0.1 PROTO=TCP DPT=3306
+Jan 10 06:30:00 server sudo: lynda : TTY=pts/0 ; PWD=/home/lynda ; USER=root ; COMMAND=/bin/bash
+Jan 10 07:00:00 server sudo: john : TTY=pts/1 ; PWD=/home/john ; USER=root ; COMMAND=/usr/bin/apt
+Jan 10 07:05:00 server kernel: iptables: DROP IN=eth0 SRC=45.33.32.156 DST=10.0.0.1 PROTO=TCP DPT=22
+Jan 10 07:07:00 server kernel: iptables: DROP IN=eth0 SRC=203.0.113.42 DST=10.0.0.1 PROTO=TCP DPT=80
+Jan 10 07:09:00 server sudo: marc : TTY=pts/2 ; PWD=/home/marc ; USER=root ; COMMAND=/bin/cat /etc/shadow
+Jan 10 07:10:00 server cron: (root) CMD (/usr/bin/python3 /opt/monitor.py)
+Jan 10 07:11:00 server kernel: iptables: DROP IN=eth0 SRC=198.51.100.7 DST=10.0.0.1 PROTO=TCP DPT=3389
